@@ -1,0 +1,224 @@
+*
+{
+padding: 0%;
+margin: 0%;
+
+
+}
+body{
+
+overflow: hidden;
+
+}
+.road{
+height:500px;
+width:100%;
+/* border: 1px solid red; */
+position: relative;
+background-image: url("road.jpg");
+background-size: 100% 100%;
+
+}
+.b
+{
+height: 140px;
+width: 130px;
+position: absolute;
+background-image: url(./car2.png);
+background-size: 100% 100%;
+top:0px;
+/* border: 1px solid red; */
+}
+.carR{
+
+   width: 150px;
+   height: 130px;
+   position: absolute;
+   top: 315px;
+   right:60px;
+   z-index: 2 ;
+   animation-name:car3 ;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+   animation-fill-mode: forwards;
+   animation-direction:normal ;
+   animation-timing-function: linear;
+}
+
+@keyframes car3{
+
+  0%{
+       transform: translate(200px) 
+   }
+
+ 
+
+   100%{transform: translate(-1200px) }
+}
+
+.tyre1
+{
+height:35px;
+width: 35px;
+background-image: url("tyre.png");
+background-size: 100% 100%;
+position: absolute;
+top: 70px;
+/* border: 1px solid red; */
+left: 18px;
+animation-name: tyre1;
+animation-duration: 0.8s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+@keyframes tyre1{
+
+   0%{transform:right(300px)
+   }
+
+   100%{transform: rotate(-360deg)
+   }
+}
+
+.tyre2
+{
+   height:35px;
+   width: 35px;
+   background-image: url("tyre.png");
+   background-size: 100% 100%;
+   position: absolute;
+   top: 72px;
+   /* border: 1px solid red; */
+   left: 80px;
+   animation-name: tyre1;
+   animation-duration: 0.8s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   }
+   @keyframes tyre1{
+   
+      0%{transform:right(300px)
+      }
+   
+      100%{transform: rotate(-360deg)
+      }
+   }
+
+
+
+.c
+{
+height: 140px;
+width: 130px;
+position: absolute;
+background-image: url(./car3.png);
+background-size: 100% 100%;
+top:50px;
+/* border: 1px solid red; */
+}
+
+
+   .carR2{
+
+      width: 150px;
+      height: 130px;
+      position: absolute;
+      top: 315px;
+      right:60px;
+      z-index: 2 ;
+      animation-name:car3 ;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-direction:normal ;
+      animation-timing-function: linear;
+   }
+   
+   @keyframes car3{
+   
+     0%{
+          transform: translate(200px) 
+      }
+   
+    
+   
+      100%{transform: translate(-1200px) }
+   }
+   
+   .tyre3
+   {
+   height:35px;
+   width: 35px;
+   background-image: url("tyre.png");
+   background-size: 100% 100%;
+   position: absolute;
+   top: 69px;
+   /* border: 1px solid red; */
+   left: 19px;
+   animation-name: tyre1;
+   animation-duration: 0.8s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   }
+   @keyframes tyre3{
+   
+      0%{transform:right(300px)
+      }
+   
+      100%{transform: rotate(-360deg)
+      }
+   }
+   
+   .tyre4
+   {
+      height:35px;
+      width: 35px;
+      background-image: url("tyre.png");
+      background-size: 100% 100%;
+      position: absolute;
+      top: 69px;
+      /* border: 1px solid red; */
+      left: 80px;
+      animation-name: tyre1;
+      animation-duration: 0.8s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      }
+      @keyframes tyre4{
+      
+         0%{transform:right(300px)
+         }
+      
+         100%{transform: rotate(-360deg)
+         }
+      }
+.f16
+{
+height:50px;
+width: 100px;
+background-image: url("f16.jpg");
+background-size: 100% 100%;
+/* border: 1px solid red; */
+position: absolute;
+top: 150px;
+right:60px;
+animation-name:f16 ;
+animation-duration:2s;
+animation-iteration-count: infinite;
+animation-fill-mode: forwards;
+animation-direction:normal ;
+animation-timing-function: linear;
+}
+
+@keyframes f16{
+
+0%{
+    transform: translate(200px) 
+}
+
+
+
+100%{transform: translate(-1200px) }
+}
+
+         

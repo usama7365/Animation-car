@@ -1,0 +1,73 @@
+.background{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid  black; */
+    background-image: url(bg1.jpg);
+    background-size: 100% 100%;
+    margin-top: 150px;
+}
+.main{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin-left: 90%;
+    padding-top: 13%;
+    /* border: 1px solid; */
+    animation: car 3s infinite linear;
+
+
+}
+@keyframes car {
+    100%{
+    transform: translate(-1400px);
+    }
+}
+.car1{
+height: 150px;
+width: 200px;
+position: absolute;
+/* border: 1px solid red; */
+/* margin-top:200px; */
+ margin-left: -40px; 
+background-image: url(car2.png);
+background-size: 100% 100%;
+/* animation-name: car;
+animation-iteration-count: 3s;
+animation-timing-function: linear; */
+}
+.tyre1{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid BLUE; */
+    margin-top:53%;
+    position: absolute;
+    border-radius: 70px;
+ background-image: url(tyre.png);
+ background-size: 100% 100%;
+ animation: tyre .5s infinite linear;
+
+
+}
+.tyre2{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid red; */
+    margin-left: 63%;
+    margin-top:53%;
+    position: absolute;
+    border-radius: 70px;
+ background-image: url(tyre.png);
+ background-size: 100% 100%;
+animation-iteration-count: .5s;
+animation-iteration-count: infinite;
+animation-name: tyre;
+ animation-timing-function: linear ;
+}
+@keyframes tyre{
+  100%{
+      transform: rotate(360deg);
+  }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
